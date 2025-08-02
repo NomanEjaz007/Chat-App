@@ -11,13 +11,13 @@
             type: String,
             required:true,
         },
-        Password:{
+        password:{
             type:String,
             required:true,
             minlength:6,
         },
-        ProfilePic:{
-            typoe:String,
+        profilePic:{
+            type:String,
             default:"",
         },
      },
